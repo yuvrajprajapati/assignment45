@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="assignment4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+
+   
+</head>
+
+<body>
+
+    <p class="h"><b>Survey Form</b></p>
+    <hr>
+
+    <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+        <p>Name :</p>
+        <div class="n">
+            <div class="fn">
+                <label for="fname" id="l1">First Name </label>
+                <input type="text" name="first_name" id="fname" required>
+            </div>
+
+
+            <div class="ln">
+                <label for="lname" id="l2">Last Name </label>
+                <input type="text" name="last_name" id="lname" required>
+            </div>
+
+        </div>
+
+        <p>Address :</p>
+        <div class="a">
+            <div class="a1">
+                <div class="str">
+                    <label for="street">street </label>
+                    <input type="text" name="street_address" id="street" required>
+                </div>
+
+
+                <div class="ci">
+                    <label for="city">city </label>
+                    <input type="text" name="city" id="city" required>
+                </div>
+            </div>
+
+
+            <div class="a2">
+                <div class="sta">
+                    <label for="state">state </label>
+                    <input type="text" name="state" id="state" required>
+                </div>
+
+
+                <div class="pi">
+                    <label for="pin">pin code </label>
+                    <input type="number" name="pincode" id="pin" required>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div>
+            <label for="contact" class="cont">contact number </label>
+            <input type="number" name="contact_number" class="contact" required>
+
+        </div>
+
+        <div>
+            <p>Quality of products received : </p>
+            <div class="E">
+                <label for="exc" class="le"> Excellent </label>
+                <input type="radio" name="quality_of_products_received_rating" class="exc" required>
+            </div>
+            <div class="G">
+                <label for="good" class="lg">Good</label>
+                <input type="radio" name="quality_of_products_received_rating" class="good">
+            </div>
+            <div class="B">
+                <label for="bad" class="lb">Bad</label>
+                <input type="radio" name="quality_of_products_received_rating" class="bad">
+            </div>
+        </div>
+
+        <div>
+            <p>Value of money: </p>
+            <div class="E">
+                <label for="exc" class="le"> Excellent </label>
+                <input type="radio" name="value_for_money_rating" class="exc" required>
+            </div>
+            <div class="G">
+                <label for="good" class="lg">Good</label>
+                <input type="radio" name="value_for_money_rating" class="good">
+            </div>
+            <div class="B">
+                <label for="bad" class="lb">Bad</label>
+                <input type="radio" name="value_for_money_rating" class="bad">
+            </div>
+
+        </div>
+
+        <div>
+            <p>Delivery : </p>
+            <div class="E">
+                <label for="exc" class="le"> Excellent </label>
+                <input type="radio" name="delivery_rating" class="exc" required>
+            </div>
+            <div class="G">
+                <label for="good" class="lg">Good</label>
+                <input type="radio" name="delivery_rating" class="good">
+            </div>
+            <div class="B">
+                <label for="bad" class="lb">Bad</label>
+                <input type="radio" name="delivery_rating" class="bad">
+            </div>
+
+        </div>
+
+        <div class="but">
+            <input type="submit" value="Submit now" class="sub">
+
+            <input type="reset" value="Reset now" class="res">
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
